@@ -6,7 +6,7 @@ def max_min(list):
             max = number
         if number < min:
             min = number
-    return [min,max]
+    return [int(min),int(max)]
 
 # sliced the input to omit the square brackets as input is a literal string of a list
 number_list = input("Please provide a list of integers:")[1:-1].split(", ")
